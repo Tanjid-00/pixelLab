@@ -1,0 +1,11 @@
+.typeWriter {
+  color: white;
+  font-family: sans-serif;
+  /* font-size: 3rem; */
+  font-size: clamp(3rem, 5vw, 9rem);
+  animation: blink 0.5s step-end infinite alternate;
+  font-weight: bold;
+  /* text-shadow: 2px 2px 2px black; */
+  text-shadow: 2px 2px 0 #1c1c1c, -2px -2px 0 #1c1c1c, -2px 2px 0 #1c1c1c,
+    2px -2px 0 #1c1c1c;
+}
